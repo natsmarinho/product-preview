@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color:  #F2EAE2;;
+}
+:root{
+    --color-text: #6C7289;
+    --family-secondary: 'Fraunces', serif;
+    --family: 'Montserrat', sans-serif;
+    --color-price: #3D8168;
+    --size-title: 2rem;
+}
+
+main{
+    position: absolute;
+    top: 1.75rem;
+    left: 1rem;
+    right: 1rem;
+    width: 343px;
+    padding-bottom: 2.5rem;
+    
+}
+
+.imagem__perfume{
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+main, .info{
+    border-radius: 1.6rem;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.info h1{
+    text-transform: uppercase;
+    font-family: var(--family);
+    color: var(--color-text);
+    letter-spacing: 5px;
+    padding-top: 1.5rem;
+    padding-left: 1.6rem;
+    font-size: 1.1rem;
+}
+
+.info h2{
+    color: #1C232B;
+    font-family: var(--family-secondary);
+    line-height: 32px;
+    font-size: var(--size-title);
+    padding: .75rem 0 1rem 1.5rem;
+}
+
+.texto__produto{
+    color: var(--color-text);
+    font-family: var(--family);
+    line-height: 23px;
+    font-size: .8rem;
+    padding: .75rem 1.5rem 1.5rem 1.5rem;
+}
+
+.price{
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+.price h3{
+    color: var(--color-price);
+    font-family: var(--family-secondary);
+    line-height: 32px;
+    font-size: var(--size-title);
+    padding-left: 1.5rem;
+    padding-bottom: 2.25rem;
+}
+
+.price p{
+    color: var(--color-text);
+    text-decoration: line-through;
+    line-height: 23px;
+    font-size: 1.1rem;
+    padding-bottom: 2.25rem;
+}
+
+a{
+    background-color: var(--color-price);
+    text-decoration: none;
+}
+
+a{
+    padding: 1rem 6rem;
+    margin-left: 8%;
+    border-radius: 8px;
+    line-height: 17px;
+    color: #ffffff;
+    font-family: var(--family);
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+a img{
+    padding-right: .8rem;
+}
