@@ -18,6 +18,7 @@ main{
     right: 1rem;
     width: 343px;
     padding-bottom: 2.5rem;
+    background-color: #ffffff;
     
 }
 
@@ -98,4 +99,40 @@ a{
 
 a img{
     padding-right: .8rem;
+}
+
+@media (min-width: 600px){
+    main{
+        top: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    main{
+        display: flex;
+        padding-bottom: 0;
+        background-color: #ffffff;
+        width: 600px;
+        height: 450px;
+    }
+
+    .imagem__perfume{
+        border-radius: 1.8rem 0 0 1.8rem;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .info h1{
+        padding-top: 0;
+    }
+
+    .price p{
+        padding-right: 3rem;
+    }
+
+    a{
+        padding: 1rem 4rem; 
+    }
 }
