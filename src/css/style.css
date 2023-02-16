@@ -16,7 +16,7 @@ main{
     top: 1.75rem;
     left: 1rem;
     right: 1rem;
-    width: 343px;
+    width: 340px;
     padding-bottom: 2.5rem;
     background-color: #ffffff;
     
@@ -24,6 +24,7 @@ main{
 
 .imagem__perfume{
     border-radius: 1.6rem 1.6rem 0 0;
+    width: 340px;
 }
 
 main, .info{
